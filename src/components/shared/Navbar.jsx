@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16 px-4'>
 
                 <h1 className='text-2xl font-bold'>
-                    Job<span className='text-blue-500'>Porta</span>
+                    Job<span className='text-blue-500'>Portal</span>
                 </h1>
 
 
