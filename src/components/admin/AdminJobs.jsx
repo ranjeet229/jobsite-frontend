@@ -27,7 +27,7 @@ const AdminJobs = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <Button onClick={() => navigate("https://jobsite-backend-w04n.onrender.com/admin/jobs/create")} className="cursor-pointer">New Jobs</Button>
+          <Button onClick={() => navigate("/admin/jobs/create")} className="cursor-pointer">New Jobs</Button>
         </div>
         <AdminJobsTable />
       </div>
